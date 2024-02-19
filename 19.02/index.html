@@ -1,13 +1,605 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 </head>
+
 <body>
 	<div class="task1">
-		
+		<fieldset>
+			<legend>Personal Details</legend>
+			<label for="">Salutation</label>
+			<br>
+			<br>
+			<select name="" id="">
+				<option value="">--None--</option>
+			</select>
+			<br>
+			<br>
+			<label for="">First name:</label>
+			<input type="text" name="firstName">
+			<br>
+			<br>
+			<label for="">Last name:</label>
+			<input type="text" name="lastName">
+			<br>
+			<br>
+			<label for="">Gender:</label>
+			<input type="radio" name="gender" id="male">
+			<label for="male">Male</label>
+			<input type="radio" name="gender" id="female">
+			<label for="female">Female</label>
+			<br>
+			<br>
+			<label for="">Email:</label>
+			<input type="email" name="mail">
+			<br>
+			<br>
+			<label for="">Date of birth:</label>
+			<input type="date">
+			<br>
+			<br>
+			<label for="">Address:</label>
+			<br>
+			<textarea name="message" id="" cols="30" rows="10"></textarea>
+			<br>
+			<br>
+			<input type="submit" name="" id="">
+	</div>
+	<div class="task2">
+		<h1>HTML Form</h1>
+		<br>
+		<label for="">First name:</label>
+		<input type="text" name="firstName" placeholder="Enter first name">
+		<br> <br>
+		<label for="">Last name:</label>
+		<input type="text" name="lastName" placeholder="Enter last name">
+		<br> <br>
+		<label for="">Email:</label>
+		<input type="email" name="mail" placeholder="Enter email address">
+		<br> <br>
+		<label for="">Phone:</label>
+		<input type="number" name="phone" placeholder="Enter phone number">
+		<br> <br>
+		<label for="">Country:</label>
+		<select name="countyr" id="">
+			<option hidden>Choose a country</option>
+			<option value="aze">Azerbaijan</option>
+			<option value="ru">Russia</option>
+			<option value="tr">Turkey</option>
+		</select>
+		<br> <br>
+		<label for="">City:</label>
+		<select name="city" id="">
+			<option hidden>Choose a city</option>
+			<option value="baku">Baku</option>
+			<option value="mos">Moskva</option>
+			<option value="ank">Ankara</option>
+		</select>
+		<br> <br>
+		<label for="">Language(s):</label>
+		<br> <br>
+		<input type="checkbox" name="en" id="">
+		<label for="">En</label>
+		<input type="checkbox" name="de" id="">
+		<label for="">De</label>
+		<input type="checkbox" name="fr" id="">
+		<label for="">Fr</label>
+		<input type="checkbox" name="ru" id="">
+		<label for="">Ru</label>
+		<br><br>
+		<input type="submit">
+		<input type="button" name="" id="" value="Reset">
+	</div>
+	<div class="task3">
+		<h1>Login</h1>
+		<label for="">Name:</label>
+		<input type="text" name="name" id="">
+		<br> <br>
+		<label for="">Email:</label>
+		<input type="email" name="mail" id="">
+		<br> <br>
+		<label for="">Password:</label>
+		<input type="password" name="password" id="">
+		<br> <br>
+		<label for="">Phone:</label>
+		<input type="number" name="phone" id="">
+		<br> <br>
+		<label for="">Gender:</label>
+		<input type="radio" name="gender" id="man">
+		<label for="man">Male</label>
+		<input type="radio" name="gender" id="woman">
+		<label for="woman">Female</label>
+		<br> <br>
+		<label for="">Date of Birth:</label>
+		<select name="date" id="">
+			<option value="date">Date</option>
+		</select>
+		<select name="month" id="">
+			<option value="month">Month</option>
+		</select>
+		<select name="year" id="">
+			<option value="year">Year</option>
+		</select>
+		<br><br>
+		<input type="submit" name="" id="" value="Send">
+	</div>
+	<div class="task4">
+		<h1>My feedback form</h1>
+		<br>
+		<ul>
+			<li>
+				<label for="">Name:</label>
+				<input type="text" name="name" id="">
+			</li>
+			<li>
+				<label for="">Email:</label>
+				<input type="email" name="mail" id="">
+			</li>
+			<li>
+				<label for="">Password:</label>
+				<input type="password" name="password" id="">
+			</li>
+			<li>
+				<label for="">Please check all the emotions that apply to you:</label>
+				<ul style="list-style-type: disc;">
+					<li>
+						<label for="">Angry:</label>
+						<input type="checkbox" name="angry" id="">
+					</li>
+					<li>
+						<label for="">Sad:</label>
+						<input type="checkbox" name="sad" id="">
+					</li>
+					<li>
+						<label for="">Happy:</label>
+						<input type="checkbox" name="happy" id="">
+					</li>
+					<li>
+						<label for="">Ambivalent:</label>
+						<input type="checkbox" name="ambivalent" id="">
+					</li>
+				</ul>
+			</li>
+			<li>
+				<label for="">How satisfied were you with our service?</label>
+				<ul style="list-style-type: disc;">
+					<li>
+						<label for="">Very satisfied:</label>
+						<input type="radio" name="verySat" id="">
+					</li>
+					<li>
+						<label for="">Satisfied:</label>
+						<input type="radio" name="sat" id="">
+					</li>
+					<li>
+						<label for="">Didn't care:</label>
+						<input type="radio" name="didn'tCare" id="">
+					</li>
+					<li>
+						<label for="">Dissatisfied:</label>
+						<input type="radio" name="dissSat" id="">
+					</li>
+					<li>
+						<label for="">Very dissatisfied:</label>
+						<input type="radio" name="veryDissSat" id="">
+					</li>
+				</ul>
+			</li>
+			<li>
+				<label for="">Further comments:</label>
+				<textarea name="furtherComments" id="" cols="20" rows="2"></textarea>
+			</li>
+			<li>
+				<label for="">Bio photo:</label>
+				<input type="file" name="" id="">
+			</li>
+			<li>
+				<label for="">Location visited:</label>
+				<select name="location" id="">
+					<option value="">Select location</option>
+				</select>
+			</li>
+			<li>
+				<input type="submit">
+			</li>
+		</ul>
+	</div>
+	<div class="task5">
+		<fieldset>
+			<legend>Login</legend>
+			<label for="">Username*</label> <br>
+			<input type="text" name="username" id="">
+			<br>
+			<label for="">Password*</label> <br>
+			<input type="password" name="password" id="">
+		</fieldset>
+		<fieldset>
+			<legend>Gender*</legend>
+			<label for="ma">Male</label>
+			<input type="radio" name="gender" id="ma">
+			<label for="fema">Female</label>
+			<input type="radio" name="gender" id="fema">
+		</fieldset>
+		<fieldset>
+			<legend>Programming Skill</legend>
+			<input type="checkbox" name="java" id="">
+			<label for="">Java</label>
+			<input type="checkbox" name="c++" id="">
+			<label for="">C++</label>
+			<input type="checkbox" name="c#" id="">
+			<label for="">C#</label>
+		</fieldset>
+		<fieldset>
+			<legend>Country</legend>
+			<label for="">Choose a country</label>
+			<select name="country" id="">
+				<option value="aze">Azerbaijan</option>
+				<option value="ru">Russia</option>
+				<option value="tr">Turkey</option>
+			</select>
+		</fieldset> <br>
+		<textarea name="comment" id="" cols="30" rows="10" placeholder="Enter your comment here"></textarea>
+		<br>
+		<input type="submit" name="" id="" value="SEND">
+		<input type="button" name="" id="" value="RESET">
+	</div>
+	<div class="task6">
+		<br> <br>
+		<fieldset>
+			<legend>Personal Information</legend>
+			<label for="">Name:</label>
+			<input type="text" name="name" id="">
+			<br> <br>
+			<label for="">Email:</label>
+			<input type="email" name="mail" id="">
+			<br> <br>
+			<label for="">Password:</label>
+			<input type="password" name="password" id="">
+			<br> <br>
+			<label for="">Phone:</label>
+			<input type="number" name="phone" id="">
+			<br> <br>
+			<label for="">Gender:</label>
+			<input type="radio" name="gender" id="">
+			<label for="">Male</label>
+			<input type="radio" name="gender" id="">
+			<label for="">Female</label>
+			<br> <br>
+			<label for="">Date of Birth:</label>
+			<input type="date" name="date" id="">
+			<br> <br>
+			<label for="">Country:</label>
+			<select name="country" id="">
+				<option value="">Choose the country</option>
+				<option value="aze">Azerbaijan</option>
+			</select>
+			<br><br>
+		</fieldset>
+		<fieldset>
+			<legend>Address</legend>
+			<label for="">Street:</label>
+			<input type="text" name="street" id=""> <br> <br>
+			<label for="">City:</label>
+			<input type="text" name="city" id=""> <br> <br>
+			<label for="">State:</label>
+			<input type="text" name="state" id=""> <br><br>
+			<label for="">Zip Code:</label>
+			<input type="text" name="zipCode" id="">
+		</fieldset>
+		<fieldset>
+			<legend>Other Information</legend>
+			<label for="">Comments</label>
+			<textarea name="comments" id="" cols="20" rows="2"></textarea>
+			<br><br>
+			<label for="">I agree to the terms of service</label>
+			<input type="checkbox" name="terms" id="">
+		</fieldset> <br><br>
+		<input type="submit" name="" id="">
+	</div>
+	<div class="task7">
+		<br>
+		<select name="car" id="">
+			<option value="" hidden>Choose the car</option>
+			<option value="nissan">Nissan</option>
+			<option value="ford">Ford</option>
+			<option value="lexus" disabled>Lexus</option>
+			<option value="audi">Audi</option>
+			<option value="honda">Honda</option>
+			<option value="bmw">BMW</option>
+		</select>
+		<br>
+	</div>
+	<div class="task8">
+		<br>
+		<select name="product" id="">
+			<option value="" hidden>Choose the product</option>
+			<optgroup label="Fruit">
+				<option value="apple">Apple</option>
+				<option value="orange">Orange</option>
+				<option value="pear">Pear</option>
+				<option value="grape">Grape</option>
+			</optgroup>
+			<optgroup label="Vegetables">
+				<option value="potato">Potato</option>
+				<option value="tomato">Tomato</option>
+				<option value="carrot">Carrot</option>
+				<option value="onion">Onion</option>
+			</optgroup>
+		</select>
+		<br>
+	</div>
+	<div class="task9">
+		<br>
+		<table border="1">
+			<thead>
+				<tr>
+					<th rowspan="2">Heading</th>
+					<th>Students</th>
+					<th colspan="3">Details</th>
+				</tr>
+				<tr>
+					<th>Id</th>
+					<th>Name</th>
+					<th>Department</th>
+					<th>Roll number</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td rowspan="4">Student list</td>
+					<td>1</td>
+					<td>Victor</td>
+					<td>Computer science</td>
+					<td>1234</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Kate</td>
+					<td>Law</td>
+					<td>2345</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Harry</td>
+					<td>Electronics</td>
+					<td>3456</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Clara</td>
+					<td>Architecture</td>
+					<td>2345</td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+	</div>
+	<div class="task10">
+		<br>
+		<table border="1" style="width: 50%; height: 200px;">
+			<thead>
+				<tr>
+					<th rowspan="3">A</th>
+					<th colspan="3" rowspan="2">B</th>
+					<th rowspan="3">C</th>
+					<th colspan="5">D</th>
+				</tr>
+				<tr>
+					<th colspan="2">O</th>
+					<th colspan="2">P</th>
+					<th rowspan="2">N</th>
+				</tr>
+				<tr>
+					<th>E</th>
+					<th>F</th>
+					<th>G</th>
+					<th>H</th>
+					<th>K</th>
+					<th>L</th>
+					<th>M</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+	</div>
+	<div class="task11">
+		<br>
+		<table border="1">
+			<thead>
+				<tr>
+					<th>Day/Period</th>
+					<th>9:30-10:20</th>
+					<th>10:20-11:10</th>
+					<th>11:10-12:00</th>
+					<th>12:00-12:40</th>
+					<th>12:40-1:30</th>
+					<th>1:30-2:20</th>
+					<th>2:20-3:10</th>
+					<th>3:10-4:00</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Monday</td>
+					<td>Eng</td>
+					<td>Mat</td>
+					<td>Che</td>
+					<td rowspan="6">Lunch</td>
+					<td colspan="3">LAB</td>
+					<td>Phy</td>
+				</tr>
+				<tr>
+					<td>Tuesday</td>
+					<td colspan="3">LAB</td>
+					<td>Eng</td>
+					<td>Che</td>
+					<td>Mat</td>
+					<td>SPORTS</td>
+				</tr>
+				<tr>
+					<td>Wednesday</td>
+					<td>Mat</td>
+					<td>Phy</td>
+					<td>Eng</td>
+					<td>Che</td>
+					<td colspan="3">LIBRARY</td>
+				</tr>
+				<tr>
+					<td>Thursday</td>
+					<td>Phy</td>
+					<td>Eng</td>
+					<td>Che</td>
+					<td colspan="3">LAB</td>
+					<td>Mat</td>
+				</tr>
+				<tr>
+					<td>Friday</td>
+					<td colspan="3">LAB</td>
+					<td>Mat</td>
+					<td>Che</td>
+					<td>Eng</td>
+					<td>Phy</td>
+				</tr>
+				<tr>
+					<td>Saturday</td>
+					<td>Eng</td>
+					<td>Che</td>
+					<td>Mat</td>
+					<td colspan="3">SEMINAR</td>
+					<td>SPORTS</td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+	</div>
+	<div class="task12">
+		<br>
+		<table border="1">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th colspan="2">Jobs</th>
+					<th>Working Experience</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>John</td>
+					<td>Software Engineer</td>
+					<td>Data Analyst</td>
+					<td rowspan="2">5 years</td>
+				</tr>
+				<tr>
+					<td>Ale</td>
+					<td colspan="2">Senior Web developer</td>
+				</tr>
+				<tr>
+					<td>Jack</td>
+					<td>Junior Tech Writer</td>
+					<td>Blogger</td>
+					<td>9 Months</td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+	</div>
+	<div class="task13">
+		<br>
+		<h1>Computer system</h1>
+		<ol>
+			<li><b>Hardware</b>
+				<ol type="i">
+					<li>CPU</li>
+					<li>RAM</li>
+					<li>I/O Devices</li>
+				</ol>
+			</li>
+			<li><b>Software</b>
+				<ol type="A">
+					<li><b><i>System Software</i></b>
+						<ol type="a">
+							<li>Operating System</li>
+							<li>Device Drivers</li>
+						</ol>
+					</li>
+					<li><b><i>Application Software</i></b>
+						<ol type="a">
+							<li>Word Processor</li>
+							<li>SpreadSheets</li>
+							<li>Graphic Software etc.</li>
+						</ol>
+					</li>
+				</ol>
+			</li>
+		</ol>
+		<br>
 	</div>
 </body>
+
 </html>
