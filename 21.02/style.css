@@ -1,0 +1,222 @@
+/* task1 */
+.task1 div {
+	background-color: lightblue;
+	border: 1px solid black;
+	padding: 10px 0;
+	margin: 15px;
+}
+
+#task1-2 {
+	text-align: center;
+}
+
+#task1-3 {
+	text-align: right;
+}
+
+#task1-4 {
+	text-align: justify;
+}
+
+#task1-5 {
+	text-align: justify;
+	text-align-last: center;
+}
+
+/* task2 */
+.task2 {
+	text-align: center;
+	margin: 20px;
+}
+
+.task2 p {
+	background-color: rgb(235, 231, 231);
+	margin: 10px;
+	padding: 15px;
+}
+
+#task2-1 {
+	font-weight: bold
+}
+
+#task2-2 {
+	font-style: italic;
+	border: 3px solid blue;
+}
+
+#task2-3 {
+	text-decoration: line-through;
+	border: 5px dotted black;
+}
+
+#task2-4 {
+	text-decoration: overline;
+	border: 5px dashed gray;
+}
+
+#task2-5 {
+	text-decoration: underline;
+	border: 3px gray double;
+}
+
+#task2-6 {
+	text-transform: uppercase;
+	border: 3px solid;
+	border-color: purple orange brown blue;
+}
+
+#task2-7 {
+	border-style: none dotted double dashed;
+	border-color: white purple orange brown;
+	border-width: 5px;
+}
+
+/* task3 */
+.task3 ul li {
+	list-style-type: none;
+	background-color: cadetblue;
+	border-bottom: 2px solid black;
+	padding: 10px;
+	width: 100px;
+}
+
+.task3 a {
+	text-decoration: none;
+	color: black;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* task4 */
+.task4 p {
+	text-align: center;
+	padding: 10px;
+	width: 200px;
+	border: 3px goldenrod;
+	margin: 40px 0;
+}
+
+#text1 {
+	border-style: solid;
+}
+
+#text2 {
+	border-style: dotted;
+	margin-left: 100px;
+}
+
+#text3 {
+	border-style: dashed;
+	margin-left: 200px;
+}
+
+#text4 {
+	border-style: double;
+	margin-left: 300px;
+}
+
+/* task5 */
+.task5 table,
+th,
+td {
+	border: 1px solid;
+	border-collapse: collapse;
+	width: 500px;
+	text-align: center;
+	padding: 5px;
+}
+
+.task5 table tr:nth-child(odd) {
+	background-color: rgb(185, 185, 185);
+}
+
+.task5 table th {
+	background-color: white;
+}
+
+/* task6 */
+.task6 div {
+	width: 100px;
+	height: 100px;
+	background-color: chocolate;
+	border: 3px solid brown;
+	display: inline-block;
+	margin: 20px;
+}
+
+#task6-1 {
+	border-radius: 10px;
+}
+
+#task6-2 {
+	border-radius: 15px 0;
+}
+
+#task6-3 {
+	border-radius: 50% 50% 0 0;
+}
+
+#task6-4 {
+	border-radius: 100% 0 0 0;
+}
+
+#task6-5 {
+	border-radius: 0 50%;
+
+}
+
+#task6-6 {
+	border-radius: 0 100%;
+
+}
+
+#task6-7 {
+	border-radius: 50% 50% 0;
+}
+
+#task6-8 {
+	border-radius: 100%;
+}
+
+/* task7 */
+.task7 {
+	font-family: Arial, Helvetica, sans-serif;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header h1 {
+	background-color: rgb(36, 164, 244);
+	color: white;
+	padding: 20px;
+}
+
+.main p {
+	padding: 20px;
+	margin: 0;
+}
+
+.footer p {
+	background-color: rgb(36, 164, 244);
+	color: white;
+	padding: 10px;
+}
+
+/* task8 */
+.polaroid {
+	width: 250px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: left;
+	border-radius: 7px;
+}
+
+.polaroid .img {
+	background-image: url("https://www.w3schools.com/css/rock600x400.jpg");
+	background-size: cover;
+	width: 250px;
+	height: 250px;
+	border-radius: 7px 7px 0 0;
+}
+
+.container {
+	padding: 10px;
+}
