@@ -1,0 +1,64 @@
+body {
+	display: flex;
+}
+
+.container {
+	border: 2px solid gray;
+	width: fit-content;
+	padding: 30px;
+	margin: 20px;
+}
+
+.container div {
+	width: 60px;
+	height: 50px;
+	color: white;
+	text-align: center;
+	margin: 10px;
+	justify-content: center;
+	display: flex;
+	box-sizing: border-box;
+}
+
+.container-1 {
+	background-color: gray;
+
+}
+
+.container-2 {
+	background-color: pink;
+
+}
+
+.container-3 {
+	background-color: green;
+}
+
+.container-4 {
+	background-color: orange;
+}
+
+/* first */
+
+.first-1 {
+	position: relative;
+	left: 30px;
+	top: 30px;
+}
+
+/* second */
+
+.second-1 {
+	position: relative;
+	z-index: -1;
+	left: 30px;
+	top: 30px;
+}
+
+/* third */
+
+.third-1 {
+	position: relative;
+	right: 30px;
+	top: 90px;
+}
