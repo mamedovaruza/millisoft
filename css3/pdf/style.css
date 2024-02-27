@@ -1,0 +1,291 @@
+/* task1 */
+.task1 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.task1 div {
+	height: 100px;
+	margin: 1%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 30%;
+}
+
+.div1 {
+	background-color: rgb(132, 198, 198);
+}
+
+.div2 {
+	background-color: rgb(225, 100, 86);
+}
+
+.div3 {
+	background-color: rgb(209, 238, 238);
+}
+
+.div4 {
+	background-color: rgb(147, 198, 96);
+}
+
+.div5 {
+	background-color: coral;
+}
+
+.div6 {
+	background-color: darkcyan;
+}
+
+/* task2 */
+.task2 {
+	color: white;
+}
+
+.task2 div {
+	display: flex;
+	margin: 5px 0;
+}
+
+.row div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+	height: 50px;
+}
+
+.row1 {
+	justify-content: left;
+}
+
+.row2 {
+	justify-content: right;
+}
+
+.row3 {
+	justify-content: space-between;
+}
+
+.row4 {
+	justify-content: space-around;
+}
+
+.row1 :nth-child(1) {
+	background-color: blue;
+}
+
+.row1 :nth-child(2) {
+	background-color: darkred;
+}
+
+.row1 :nth-child(3) {
+	background-color: green;
+}
+
+.row2 :nth-child(1) {
+	background-color: gray;
+}
+
+.row2 :nth-child(2) {
+	background-color: rgb(238, 132, 149);
+}
+
+.row2 :nth-child(3) {
+	background-color: burlywood;
+}
+
+.row3 :nth-child(1) {
+	background-color: darkolivegreen;
+}
+
+.row3 :nth-child(2) {
+	background-color: orange;
+}
+
+.row3 :nth-child(3) {
+	background-color: purple;
+}
+
+.row4 :nth-child(1) {
+	background-color: indianred;
+}
+
+.row4 :nth-child(2) {
+	background-color: lightcoral;
+}
+
+.row4 :nth-child(3) {
+	background-color: grey;
+}
+
+/* task3 */
+
+.task3 {
+	color: white;
+	display: flex;
+}
+
+.task3 .boxes {
+	margin: 5px;
+}
+
+.boxes {
+	width: 100%;
+	height: 500px;
+	background-color: rgb(195, 195, 195);
+	display: flex;
+	flex-direction: column;
+}
+
+.boxes div {
+	width: 80px;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.boxes1 {
+	align-items: center;
+	justify-content: space-between;
+}
+
+.boxes2 {
+	align-items: flex-end;
+	justify-content: space-around;
+}
+
+.boxes3 {
+	align-items: center;
+	justify-content: center;
+}
+
+.boxes4 {
+	align-items: flex-end;
+	justify-content: space-around;
+	flex-direction: column-reverse;
+}
+
+.boxes5 {
+	justify-content: flex-end;
+}
+
+.boxes :nth-child(1) {
+	background-color: purple;
+}
+
+.boxes :nth-child(2) {
+	background-color: pink;
+}
+
+.boxes :nth-child(3) {
+	background-color: green;
+}
+
+/* task4 */
+
+.task4 {
+	width: 80%;
+	margin: 10px;
+	display: flex;
+}
+
+.container-colors {
+	width: 50%;
+	height: 400px;
+}
+
+.con-colors-1,
+.con-colors-2 {
+	display: flex;
+}
+
+.red {
+	width: 50%;
+	height: 400px;
+	background-color: red;
+}
+
+.yellow {
+	width: 50%;
+	height: 200px;
+	background-color: yellow;
+}
+
+.blue {
+	width: 50%;
+	height: 200px;
+	background-color: blue;
+}
+
+.green {
+	width: 50%;
+	height: 200px;
+	background-color: green;
+}
+
+.purple {
+	width: 50%;
+	height: 200px;
+	background-color: purple;
+}
+
+/* task5 */
+
+.task5 {
+	width: 80%;
+	margin: 10px;
+	display: flex;
+}
+
+.container-1 {
+	width: 50%;
+	height: 400px;
+}
+
+.container-2 {
+	width: 50%;
+	height: 400px;
+}
+
+.con2-colors-1,
+.con2-colors-2 {
+	display: flex;
+}
+
+.red2 {
+	width: 100%;
+	height: 200px;
+	background-color: red;
+}
+
+.blue2 {
+	width: 50%;
+	height: 200px;
+	background-color: blue;
+}
+
+.green2 {
+	width: 50%;
+	height: 200px;
+	background-color: green;
+}
+
+.purple2 {
+	width: 50%;
+	height: 200px;
+	background-color: purple;
+}
+
+.yellow2 {
+	width: 50%;
+	height: 200px;
+	background-color: yellow;
+}
+
+.gray {
+	width: 100%;
+	height: 200px;
+	background-color: gray;
+}
