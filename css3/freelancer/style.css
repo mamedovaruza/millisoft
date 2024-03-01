@@ -1,0 +1,362 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Navigation */
+nav {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgb(44, 62, 80);
+	position: fixed;
+	z-index: 8;
+}
+
+.nav-logo {
+	margin-right: 20px;
+	line-height: 67px;
+}
+
+.container-nav {
+	margin-left: 180px;
+	margin-right: 180px;
+	padding-left: 12px;
+	padding-right: 12px;
+	display: flex;
+}
+
+.container-nav li {
+	list-style-type: none;
+}
+
+.container-nav a {
+	font-size: 30px;
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+}
+
+.container-nav-menu ul {
+	display: flex;
+	margin-left: 620px;
+}
+
+.container-nav-menu a {
+	font-size: 16px;
+	line-height: 30px;
+	padding-left: 16px;
+	padding-right: 16px;
+	text-align: right;
+}
+
+.container-nav-menu a:hover {
+	color: rgb(26, 188, 156);
+}
+
+/* Header */
+header {
+	background-color: rgb(26, 188, 156);
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.container-header {
+	margin-left: 180px;
+	margin-right: 180px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.container-header img {
+	width: 240px;
+	height: 260px;
+	margin-bottom: 15px;
+}
+
+.container-header h1 {
+	font-weight: 700;
+	font-size: 64px;
+}
+
+.container-star {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	display: flex;
+	justify-content: center;
+}
+
+.container-star .line {
+	height: 4px;
+	width: 112px;
+	background-color: white;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.container-star .star i {
+	font-size: 32px;
+	margin: 0 16px;
+	line-height: 26px;
+}
+
+.container-header p {
+	font-size: 1.5rem;
+}
+
+/* Portfolio */
+
+.section-portfolio {
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.container-portfolio {
+	color: rgb(44, 62, 80);
+	margin-left: 160px;
+	margin-right: 160px;
+}
+
+.dark-line {
+	background-color: rgb(44, 62, 80) !important;
+}
+
+.starline-h2 {
+	font-size: 48px;
+}
+
+.portfolio-cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.portfolio-card {
+	width: 30%;
+	height: 290px;
+	flex-basis: auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	margin-bottom: 50px;
+	margin-left: 18px;
+	margin-right: 18px;
+}
+
+.portfolio-card a {
+	text-decoration: none;
+}
+
+.portfolio-card:hover {
+	transition: 1s;
+}
+
+.background-transparent {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	border-radius: 10px;
+}
+
+.background-transparent:hover {
+	background-color: rgba(26, 188, 156, 0.9);
+	transition: 0.25s ease-out, 0.7s, 0.25s ease-out;
+}
+
+.portfolio-card-icon {
+	position: relative;
+}
+
+.portfolio-card-icon i {
+	color: white;
+	display: none;
+	font-size: 72px;
+	position: absolute;
+	top: 40%;
+	padding-left: 170px;
+}
+
+.background-transparent:hover i {
+	display: initial;
+}
+
+.cabin {
+	background-image: url("https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png");
+}
+
+.cake {
+	background-image: url("https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png");
+}
+
+.circus {
+	background-image: url("https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png");
+}
+
+.game {
+	background-image: url("https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png");
+}
+
+.safe {
+	background-image: url("https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png");
+}
+
+.submarine {
+	background-image: url("https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png");
+}
+
+/* About */
+.section-about {
+	color: white;
+	background-color: rgb(26, 188, 156);
+	padding-top: 70px;
+	padding-bottom: 150px;
+	text-align: center;
+}
+
+.container-about-text {
+	display: flex;
+	text-align: left;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.text-1 {
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-left: 400px;
+	width: 50%;
+}
+
+.text-2 {
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-right: 400px;
+	width: 50%;
+}
+
+.about-button {
+	margin-top: 25px;
+	text-align: center;
+}
+
+.about-button a {
+	background-color: rgb(26, 188, 156);
+	color: white;
+	border: 2px solid white;
+	width: 230px;
+	padding: 16px 28px;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.about-button i {
+	margin-right: 10px;
+}
+
+.about-button a:hover {
+	color: black;
+	background-color: white;
+	transition: 1s;
+}
+
+/* Contact */
+.section-contact {
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 200px;
+}
+
+.container-contact {
+	margin-left: 180px;
+	margin-right: 180px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.container-form {
+	font-size: 25px;
+	color: #6c757d;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.form-control {
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-bottom: 1px solid #6c757d;
+}
+
+.contact-send-btn {
+	float: left;
+	background-color: rgb(26, 188, 156) !important;
+	border-color: rgb(26, 188, 156) !important;
+	padding: 16px 25px !important;
+	font-size: 20px !important;
+	margin-top: 20px;
+	border-radius: 8px !important;
+}
+
+/* Footer */
+footer {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: rgb(44, 62, 80);
+	text-align: center;
+}
+
+.container-footer {
+	margin-left: 180px;
+	margin-right: 180px;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: white;
+	display: flex;
+}
+
+.container-footer-item {
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 30%;
+	margin: 0 30px;
+}
+
+.container-footer-item i {
+	color: white;
+}
+
+.footer-item2-a {
+	border: 2px solid white;
+	border-radius: 50%;
+	padding: 10px 13px;
+	margin: 10px;
+}
+
+.container-footer-item h4 {
+	margin-bottom: 30px;
+}
+
+.container-footer-item p {
+	font-size: 20px;
+}
+
+.start-bootstrap {
+	color: rgb(26, 188, 156);
+	border: none !important;
+}
+
+.start-bootstrap:hover {
+	color: #15967d;
+}
+
+/* Copyright */
+.container-copyright {
+	padding: 25px 0;
+	background-color: rgb(26, 37, 47);
+	color: white;
+	text-align: center;
+}
