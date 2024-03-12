@@ -1,0 +1,148 @@
+body {
+	font-family: Oswald, sans-serif;
+	margin: 0;
+}
+
+/* Header */
+header {
+	width: 100%;
+}
+
+.container-header {
+	margin-left: 220px;
+	margin-right: 220px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container-header-icon {
+	margin-left: auto;
+}
+
+.container-header-text h3 {
+	color: rgb(254, 126, 201);
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.container-header-icon i {
+	color: rgb(66, 67, 75);
+	font-size: 24px;
+}
+
+/* Education */
+
+
+.container-education {
+	margin-left: 270px;
+	margin-right: 270px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.education-text {
+	text-align: center;
+	width: 470px;
+
+}
+
+.education-text h1 {
+	color: rgb(72, 141, 244);
+	font-size: 72px;
+	line-height: 74px;
+	margin-top: 180px;
+}
+
+.education-text h5 {
+	color: rgb(66, 67, 75);
+	font-size: 30px;
+	line-height: 24px;
+	margin-bottom: 75px;
+}
+
+.edu-img img {
+	width: 570px;
+	height: 670px;
+	object-fit: cover;
+}
+
+/* Category */
+.container-edu-category {
+	color: white;
+	display: flex;
+	text-align: center;
+	width: 100%;
+	margin-top: 40px;
+}
+
+.edu-category-card {
+	width: 25%;
+	height: 340px;
+}
+
+.edu-category-card i {
+	font-size: 65px;
+	margin-top: 105px;
+}
+
+.edu-category-card h3 {
+	font-size: 30px;
+}
+
+.learning {
+	background-color: rgb(56, 196, 193);
+}
+
+.philosophy {
+	background-color: rgb(254, 202, 2);
+}
+
+.practice {
+	background-color: rgb(254, 126, 201);
+}
+
+.games {
+	background-color: rgb(72, 141, 244);
+}
+
+/* How1 */
+
+.section-how1 {
+	background-color: rgb(242, 242, 242);
+	text-align: center;
+}
+
+.container-how1 {
+	margin-left: 270px;
+	margin-right: 270px;
+}
+
+.how1-h h3 {
+	margin-top: 0;
+	color: rgb(72, 141, 244);
+	font-size: 60px;
+	padding-top: 100px;
+	margin-bottom: 20px;
+}
+
+.how1-p p {
+	margin-bottom: 0;
+	line-height: 34px;
+	font-size: 20px;
+	color: rgb(66, 67, 75);
+	font-weight: 400;
+	font-family: "Open Sans", sans-serif;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 60px;
+}
+
+.line-div {
+	border-top: 6px solid black;
+	width: 67px;
+	margin: auto;
+}
+
+/* About1 */
