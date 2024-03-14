@@ -107,7 +107,6 @@ header {
 }
 
 /* How1 */
-
 .section-how1 {
 	background-color: rgb(242, 242, 242);
 	text-align: center;
@@ -146,3 +145,514 @@ header {
 }
 
 /* About1 */
+.section-about1 {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.container-about1 {
+	margin-left: 270px;
+	margin-right: 270px;
+}
+
+.about1-text h4 {
+	font-size: 24px;
+	color: rgb(128, 128, 128);
+	font-weight: 300;
+	margin-top: 70px;
+}
+
+.about1-text h2 {
+	color: rgb(66, 67, 75);
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.about1-content {
+	width: 100%;
+	display: flex;
+}
+
+.about1-cards1 {
+	display: flex;
+}
+
+.about1-i {
+	border-radius: 50%;
+	width: 68px;
+	height: 68px;
+	float: right;
+	display: block;
+}
+
+.i-cyan {
+	background-color: rgb(56, 196, 193);
+
+}
+
+.i-pink {
+	background-color: rgb(254, 126, 201);
+}
+
+.about1-card {
+	padding: 20px;
+	margin: 0 15px 15px 15px;
+	width: 40%;
+	height: 300px;
+}
+
+.about1-card h4 {
+	text-align: right;
+	font-size: 24px;
+	font-weight: 300;
+	color: rgb(128, 128, 128);
+	/* margin-top: 30px; */
+}
+
+.about1-card p {
+	text-align: left;
+	font-size: 14px;
+	color: rgb(66, 67, 75);
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 23px;
+}
+
+.about1-card i {
+	color: white;
+	font-size: 3.5rem;
+	border-radius: 50%;
+	margin-left: 90px;
+}
+
+.about1-card a {
+	text-decoration: none;
+	float: right;
+}
+
+.a-cyan {
+	color: rgb(56, 196, 193);
+}
+
+.a-pink {
+	color: rgb(254, 126, 201);
+}
+
+.about1-img {
+	background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/ca5339361f8853548066bb08/b7040d72be0edade2d96c5faa0198690.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* width: 580px; */
+	width: 100%;
+	height: 720px;
+}
+
+.cyan {
+	color: #42434b;
+	background-color: #ebfcfc;
+}
+
+.pink {
+	color: #42434b;
+	background-color: #fff2fa;
+}
+
+.about1-cards2 {
+	display: flex;
+}
+
+.about1-card-img1 {
+	background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/d3bfc71acd69527589c31f1b/d.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 25px;
+}
+
+.about1-card-img2 {
+	background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/bf90812ae3b351c4942c0350/dfv.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 25px;
+}
+
+/* Key features */
+.section-key {
+	background-color: rgb(254, 202, 2);
+	text-align: center;
+}
+
+.container-key {
+	margin-left: 270px;
+	margin-right: 270px;
+	padding-bottom: 50px;
+}
+
+.key-text {
+	padding-top: 65px;
+	color: white;
+}
+
+.key-text h4 {
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.key-text h2 {
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.container-key-cards {
+	width: 100%;
+	display: flex;
+}
+
+.key-card {
+	background-color: white;
+	width: 20%;
+	margin: 20px;
+	padding: 30px;
+}
+
+.key-card i {
+	color: white;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+
+.key-card h5 {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.key-card p {
+	color: rgb(69, 69, 69);
+	font-size: 16px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 27px;
+	font-family: "Open Sans", sans-serif;
+}
+
+.environment {
+	color: rgb(254, 126, 201);
+}
+
+.active-learning {
+	color: rgb(72, 141, 244);
+}
+
+.creative-lessons {
+	color: rgb(56, 196, 193);
+}
+
+.qualified-teacher {
+	color: rgb(254, 202, 2);
+}
+
+/* How2 */
+.section-how2 {
+	background-color: rgb(242, 242, 242);
+	text-align: center;
+}
+
+.container-how2 {
+	margin-left: 270px;
+	margin-right: 270px;
+}
+
+.how2-h h3 {
+	text-align: left;
+	font-size: 60px;
+	color: rgb(66, 67, 75);
+	margin-top: 0;
+	padding-top: 60px;
+}
+
+.how2-p p {
+	margin-bottom: 0;
+	line-height: 34px;
+	font-size: 20px;
+	color: rgb(66, 67, 75);
+	font-weight: 400;
+	font-family: "Open Sans", sans-serif;
+	width: 80%;
+	margin-left: auto;
+	margin-right: 20px;
+	padding-bottom: 60px;
+	text-align: left;
+}
+
+.how2-p div {
+	display: flex;
+}
+
+/* Methods */
+.section-methods {
+	background-color: rgb(56, 196, 193);
+}
+
+.container-methods {
+	margin-left: 270px;
+	margin-right: 270px;
+	display: flex;
+}
+
+.container-methods div {
+	margin: 10px;
+}
+
+.methods-text {
+	background-color: white;
+	width: 30%;
+	padding: 25px;
+}
+
+.methods-text h3 {
+	color: rgb(66, 67, 75);
+	font-size: 30px;
+}
+
+.methods-text p {
+	color: rgb(66, 67, 75);
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+	font-family: "Open Sans", sans-serif;
+}
+
+.methods-img1 {
+	background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/ca781a3c8fdc51668d3016a3/c4f5abfbf6e1318f547819911d40eb34.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 380px;
+	height: 487px;
+}
+
+.methods-img2 {
+	background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/45abe08f6d4a5feb8226c2d3/bf76ae7aee2f9e595a6c9f6bdefc52a2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 380px;
+	height: 487px;
+}
+
+/* About2 */
+.section-about2 {
+	text-align: center;
+}
+
+.container-about2 {
+	margin-left: 270px;
+	margin-right: 270px;
+}
+
+.container-about2-body {
+	display: flex;
+	margin-bottom: 100px;
+}
+
+.txt1 {
+	text-align: right;
+	margin-right: 30px;
+}
+
+.txt2 {
+	text-align: left;
+	margin-left: 30px;
+}
+
+.container-about2-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.container-about2-text h5 {
+	font-size: 20px;
+	font-weight: 700;
+	color: rgb(66, 67, 75);
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+.container-about2-text p {
+	color: rgb(66, 67, 75);
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 30px;
+	font-family: "Open Sans", sans-serif;
+}
+
+.container-about2-img img {
+	width: 364px;
+	height: 500px;
+}
+
+/* Facility */
+.section-facility {
+	text-align: center;
+	background-color: rgb(56, 196, 193);
+	padding-bottom: 100px;
+}
+
+.container-facility {
+	margin-left: 270px;
+	margin-right: 270px;
+}
+
+.facility-body {
+	display: flex;
+}
+
+.facility-img {
+	background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/639687807b39575582358f6f/bf46f3252edb2d29641ccb332f377bc9.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 570px;
+	height: 600px;
+}
+
+.facility-text {
+	width: 570px;
+	background-color: white;
+	text-align: left;
+	padding: 100px 60px;
+}
+
+.facility-text h2 {
+	font-size: 32px;
+	font-weight: 700;
+	color: rgb(66, 67, 75);
+}
+
+.facility-text p {
+	color: rgb(66, 67, 75);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	font-family: "Open Sans", sans-serif;
+}
+
+.facility-text a {
+	text-decoration: none;
+	color: rgb(254, 126, 201);
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+
+/* Contact */
+.section-contact {}
+
+.container-contact {
+	display: flex;
+	margin: 60px 270px;
+}
+
+.container-contact-item {
+	margin: 30px auto;
+}
+
+.container-contact-item div {
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	margin-left: 30px;
+}
+
+.container-contact-item i {
+	color: white;
+	font-size: 50px;
+
+}
+
+.container-contact-item h6 {
+	font-size: 14px;
+	color: rgb(66, 67, 75);
+	font-weight: 700;
+}
+
+.span-pink {
+	background-color: rgb(254, 126, 201);
+}
+
+.span-green {
+	background-color: rgb(56, 196, 193);
+}
+
+.span-yellow {
+	background-color: rgb(254, 202, 2);
+}
+
+/* Footer */
+footer {
+	background-color: rgb(254, 126, 201);
+}
+
+.container-footer {
+	margin: 0 270px;
+}
+
+.container-footer-text {
+	display: flex;
+	color: white;
+	padding-top: 100px;
+}
+
+.container-footer-text-item {
+	margin-right: auto;
+}
+
+.container-footer-text h6 {
+	font-size: 14px;
+}
+
+.container-footer-text p {
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+}
+
+.container-footer-icons {
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
+}
+
+.container-footer-icon i {
+	color: white;
+	margin-bottom: 50px;
+	margin-right: 10px;
+}
+
+/* Created with */
+.section-created-with {
+	background-color: rgb(51, 51, 51);
+	padding: 50px;
+
+}
+
+.container-created-with {
+	margin-right: 270px;
+	margin-left: 270px;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+}
+
+.container-created-with a {
+	color: rgb(254, 184, 225);
+}
+
+
+.container-created-with p {
+	color: white;
+}
+
+.container-created-with a,
+p {
+	display: inline;
+}
