@@ -1,0 +1,25 @@
+.mp-rl {
+	margin-left: 240px;
+	margin-right: 240px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* Header */
+.container-nav-socials-item {
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.container-nav-socials-item i {
+	color: rgb(87, 95, 101);
+
+}
+
+/* Slider area */
+.section-slider {
+	background-image: url("http://ecoharvest.farm/d1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+}
