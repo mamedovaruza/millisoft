@@ -5,7 +5,7 @@
 // function oddItems(array) {
 // 	var result = []
 // 	for (let i = 0; i < array.length; i++) {
-// 		if (i % 2 != 0) {
+// 		if (i % 2 == 0) {
 // 			result.push(array[i])
 // 		}
 // 	}

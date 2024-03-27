@@ -251,7 +251,7 @@
 // 			matchCount++;
 // 		}
 // 	}
-// 	return (matchCount / longerLength) * 100;
+// 	return Math.floor((matchCount / longerLength) * 100) + " %";
 // }
 
 // console.log(similarityScore(a, b));
