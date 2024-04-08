@@ -50,7 +50,7 @@
 // for (let i = 0; i < a.length; i++) {
 // 	const el = a[i]
 
-// 	if (typeof el === 'number') {
+// 	if (typeof el == 'number') {
 // 		result.push(el)
 // 	}
 // }
@@ -71,42 +71,42 @@
 
 //  6.⁠ ⁠Daxil edilmiş ədədi sözlə yazan funskiya (Məs→ input :1, output : Bir )
 
-// var a = Number(prompt("Eded daxil edin"))
+var a = Number(prompt("Eded daxil edin"))
 
-// function test(n) {
-// 	if (n < 0)
-// 		return false;
-// 	single_digit = ['', 'Bir', 'Iki', 'Uc', 'Dord', 'Bes', 'Alti', 'Yeddi', 'Sekkiz', 'Doqquz']
-// 	double_digit = ['On', 'On bir', 'On iki', 'On uc', 'On dord', 'On bes', 'On alti', 'On yeddi', 'On sekkiz', 'On doqquz']
-// 	below_hundred = ['Iyirmi', 'Otuz', 'Qirx', 'Elli', 'Altmis', 'Yetmis', 'Seksen', 'Doxsan']
+function test(n) {
+	if (n < 0)
+		return false;
+	single_digit = ['', 'Bir', 'Iki', 'Uc', 'Dord', 'Bes', 'Alti', 'Yeddi', 'Sekkiz', 'Doqquz']
+	double_digit = ['On', 'On bir', 'On iki', 'On uc', 'On dord', 'On bes', 'On alti', 'On yeddi', 'On sekkiz', 'On doqquz']
+	below_hundred = ['Iyirmi', 'Otuz', 'Qirx', 'Elli', 'Altmis', 'Yetmis', 'Seksen', 'Doxsan']
 
-// 	if (n === 0) return 'Zero'
-// 	function translate(n) {
-// 		word = ""
-// 		if (n < 10) {
-// 			word = single_digit[n] + ' '
-// 		} else if (n < 20) {
-// 			word = double_digit[n - 10] + ' '
-// 		} else if (n < 100) {
-// 			rem = translate(n % 10)
-// 			word = below_hundred[(n - n % 10) / 10 - 2] + ' ' + rem
-// 		} else if (n < 1000) {
-// 			word = single_digit[Math.trunc(n / 100)] + ' Yuz ' + translate(n % 100)
-// 		} else if (n < 1000000) {
-// 			word = translate(parseInt(n / 1000)).trim() + ' Min ' + translate(n % 1000)
-// 		} else if (n < 1000000000) {
-// 			word = translate(parseInt(n / 1000000)).trim() + ' Milyon ' + translate(n % 1000000)
-// 		} else {
-// 			word = translate(parseInt(n / 1000000000)).trim() + ' Milyard ' + translate(n % 1000000000)
-// 		}
-// 		return word
-// 	}
-// 	result = translate(n)
-// 	return result.trim() + '.'
-// }
+	if (n === 0) return 'Zero'
+	function translate(n) {
+		word = ""
+		if (n < 10) {
+			word = single_digit[n] + ' '
+		} else if (n < 20) {
+			word = double_digit[n - 10] + ' '
+		} else if (n < 100) {
+			rem = translate(n % 10)
+			word = below_hundred[(n - n % 10) / 10 - 2] + ' ' + rem
+		} else if (n < 1000) {
+			word = single_digit[Math.trunc(n / 100)] + ' Yuz ' + translate(n % 100)
+		} else if (n < 1000000) {
+			word = translate(parseInt(n / 1000)).trim() + ' Min ' + translate(n % 1000)
+		} else if (n < 1000000000) {
+			word = translate(parseInt(n / 1000000)).trim() + ' Milyon ' + translate(n % 1000000)
+		} else {
+			word = translate(parseInt(n / 1000000000)).trim() + ' Milyard ' + translate(n % 1000000000)
+		}
+		return word
+	}
+	result = translate(n)
+	return result.trim() + '.'
+}
 
-// console.log("Eded = " + a)
-// console.log("Soz ile: " + test(a));
+console.log("Eded = " + a)
+console.log("Soz ile: " + test(a));
 
 
 //  7.⁠ ⁠Verilmiş ədədin tam ədəd olub olmadığını yoxlayan proqram yazın

@@ -148,7 +148,6 @@
 
 // 	for (let i = 1; i <= 100; i++) {
 // 		var num = i.toString().split("")
-// 		// console.log(num);
 // 		if (num[num.length - 1] == 1) {
 // 			result.push(Number(num.join("")))
 // 		}
@@ -350,13 +349,30 @@
 // var a = "Lorem Ipsum"
 
 // function Substring(text) {
-// 	return text.substring(2,4)
+// 	return text.substring(2, 4)
 // }
 
 // console.log(Substring(a));
 
+// function substring(text) {
+// 	var result = text.slice(2, 4)
+// 	return result
+// }
+
+// console.log(substring(a));
 
 // 20.⁠ ⁠indexOf metodunun işini yerinə yetirən funksiya yaradın
 
 // var a = [1, 2, 3, 4, 5]
-// console.log(a.indexOf(4));
+
+// function indexOf(collection, target) {
+// 	var index;
+// 	for (var val in collection) {
+// 		if (collection[val] === target) {
+// 			index = val;
+// 			return index;
+// 		}
+// 	}
+// }
+
+// console.log(indexOf(a,3));

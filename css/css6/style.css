@@ -5,21 +5,42 @@
 	padding-right: 15px;
 }
 
+body {
+	margin: 0;
+	padding: 0;
+}
+
 /* Header */
+header {
+	background-image: url("http://ecoharvest.farm/d1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 950px;
+}
+
 .container-nav-socials-item {
 	background-color: rgba(255, 255, 255, 0.7);
+	width: 70px;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	margin: 10px;
+	float: right;
 }
 
 .container-nav-socials-item i {
 	color: rgb(87, 95, 101);
+}
 
+.container-nav-bar{
+	background-color: rgba(255, 255, 255, 0.7);
 }
 
 /* Slider area */
-.section-slider {
+/* .section-slider {
 	background-image: url("http://ecoharvest.farm/d1.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: auto;
-}
+	height: 500px;
+} */
