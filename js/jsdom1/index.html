@@ -5,6 +5,149 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+
+	<!-- Task11`e aid olan CSS kodlaridir -->
+	<style>
+		/* h2 {
+			text-align: center;
+			color: blue;
+			font-family: sans-serif;
+			font-weight: 400;
+		}
+
+		.accordion {
+			background-color: #eee;
+			color: #444;
+			cursor: pointer;
+			padding: 18px;
+			width: 100%;
+			border: none;
+			text-align: left;
+			outline: none;
+			font-size: 15px;
+			transition: 2s;
+		}
+
+		.active {
+			color: cadetblue;
+			transition: 0.5s;
+		}
+
+		.panel {
+			padding: 0 18px;
+			display: none;
+			background-color: white;
+			overflow: hidden;
+		} */
+		/* 
+		.accordion {
+			width: 100%;
+		}
+
+		.accordion-item {
+			background-color: #fff;
+			margin-bottom: 10px;
+			padding: 10px;
+			border: 1px solid #ccc;
+		}
+
+		.accordion-header {
+			font-size: 18px;
+			font-weight: bold;
+			cursor: pointer;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.accordion-content {
+			display: none;
+			padding: 10px;
+		}
+
+		.icon {
+			font-size: 20px;
+			margin-left: auto;
+			transform: rotate(90deg);
+			transition: all 0.2s ease;
+		}
+
+		.open .icon {
+			transform: rotate(0);
+		} */
+
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+
+		}
+
+		body {
+			min-height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-family: 'Poppins', sans-serif;
+			background-color: gainsboro;
+		}
+
+		.accordion {
+			max-width: 33rem;
+			width: 100%;
+			margin: 0 1rem;
+			padding: 1rem;
+		}
+
+		.accordion .accordion-content {
+			margin: 5px 0;
+			background-color: gainsboro;
+			overflow: hidden;
+		}
+
+		.accordion-content.is-open {
+			padding-bottom: 10px;
+		}
+
+		.accordion-content header {
+			display: flex;
+			padding: 15px;
+			cursor: pointer;
+			align-items: center;
+			transition: 1s;
+			background-color: #FFF;
+		}
+
+		.accordion-content.is-open header {
+			min-height: 35px;
+			color: cadetblue;
+		}
+
+		.accordion-content.is-open header h2 {
+			color: cadetblue;
+			transition: 1s;
+		}
+
+		.accordion-content-title {
+			font-size: 1rem;
+			font-weight: 600;
+			color: #000000;
+			text-align: left;
+		}
+
+		.accordion-content-description {
+			height: 0;
+			font-size: 13px;
+			color: #000000;
+			font-weight: 400;
+			/* padding: 15px; */
+		}
+
+		.about {
+			text-align: center;
+			color: blue;
+		}
+	</style>
 </head>
 
 <body>
@@ -81,8 +224,48 @@
 
 	<!-- Task11 -->
 
+	<div class="accordion">
+		<h2 class="about">HAQQIMIZDA</h2>
+		<div class="accordion-content">
+			<header>
+				<i class="fa-solid fa-chevron-right"></i>
+				<h2 class="accordion-content-title">
+					Fəaliyyətimiz
+				</h2>
+			</header>
+			<p class="accordion-content-description">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan neque condimentum leo
+				interdum, et gravida orci porttitor.
+			</p>
+		</div>
+		<div class="accordion-content">
+			<header>
+				<i class="fa-solid fa-chevron-right"></i>
+				<h2 class="accordion-content-title">
+					Əsas Məqsədimiz
+				</h2>
+			</header>
+			<p class="accordion-content-description">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan neque condimentum leo
+				interdum, et gravida orci porttitor.
+			</p>
+		</div>
+		<div class="accordion-content">
+			<header>
+				<i class="fa-solid fa-chevron-right"></i>
+				<h2 class="accordion-content-title">
+					Əsas hədəflərimiz
+				</h2>
+			</header>
+			<p class="accordion-content-description">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan neque condimentum leo
+				interdum, et gravida orci porttitor.
+			</p>
+		</div>
+	</div>
 
 	<script src="script.js"></script>
+	<script src="https://kit.fontawesome.com/d442ef328e.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
